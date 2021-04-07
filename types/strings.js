@@ -4,9 +4,9 @@ console.log("this is text, and a string")
 */
 
 let str_a = "This is a double quote string"
-let str_b = 'Kate\'s This is a single quote string'
+let str_b = 'This is a single quote string'
 
-console.log('This is \nnew')
+console.log('This is new')
 // Use this to add data into a string
 let str_c = `This is a backtick string`
 // ^This is a template string
@@ -26,14 +26,14 @@ let template_full = `${f_name} ${l_name}`
 let concat_full = f_name.concat(l_name)
 console.log(concat_full)
 
-let multi-line1= 'this is a long string' + 
+let multiline1= 'this is a long string' + 
 'and I want it on many lines'
 
-let multi-line2 = 'this is also a long string' \
-and I want it on many lines'
+let multiline2= 'this is also a long string'
+'and I want it on many lines'
 
-console.log(multi-line1)
-console.log(multi-line2)
+console.log(multiline1)
+console.log(multiline2)
 
 console.log(full_name)
 console.log(template_full)
